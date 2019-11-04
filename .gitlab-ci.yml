@@ -1,30 +1,5 @@
-image: node:6
-
-build:
-    stage: build
-    artifacts:
-        paths:
-         - _book
-    script: 
-     - npm install gitbook-cli && node node_modules/gitbook-cli/bin/gitbook.js build
-    tags:
-     - build-capable
-
-test:
-    stage: test
-    script: 
-     - echo "no tests."
-    tags:
-     - test-capable
-
-deploy:
-    stage: deploy
-    script:
-     - rm -rf /var/www/html/*
-     - cd _book
-     - cp -rf . /var/www/html
-     - echo "this is where it'll distribute itself wherever is necessary!"
-    tags:
-     - deploy-capable
-    only: 
-     - master
+rspec:
+  script:
+    - gitbook init
+    - gitbook build
+    - sh start.sh
