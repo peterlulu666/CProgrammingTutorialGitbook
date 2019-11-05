@@ -67,11 +67,26 @@ count *= count; // count is 4
 ```      
 
 
-## Relational operators           
+## Relational operators      
 
-## Logical operators      
+* equals `==`.      
+* not equal `!=`.      
+* greater `>`.      
+* less `<`.      
+* greater or equal `>=`.      
+* less or equal '<='.        
 
-## Conditional operator      
+## Logical operators        
+
+* logical AND `&&`.                 
+* logical OR `||`.      
+* logical NOT `!`.      
+
+## Conditional operator        
+
+Conditional operator `?`.      
+
+      
 
 
 
