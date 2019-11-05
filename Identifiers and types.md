@@ -19,6 +19,16 @@ Identifiers are names of variable, arrays, function, structures, unions and labe
 ## String      
 
 String is sequence of characters.      
+
+## The void type      
+
+A function returns `void`.     
+
+A function has no parameter can accept `void`.      
+
+Pointers to `void`. a memory allocation function `void *malloc( size_t size )` return a pointer to void which can be casted to any type of data.      
+
+
       
 
 ## Constant variable      
