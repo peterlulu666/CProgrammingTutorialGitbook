@@ -1,13 +1,7 @@
 terminal:
-  image:
-  name: node:10-alpine
-  ports:
-    - 80
-  services:      
-    - name: local/webide-file-sync:latest
-    alias: webide-file-sync
-    entrypoint: ["/bin/sh"]     
-    command: ["-c", "sleep 5 && 
-    ./webide-file-sync"]
-      ports:
-        - number: 3000
+  before_script:
+    - apt-get update
+  script: sleep 60
+  variables:
+    RAILS_ENV: "test"
+    NODE_ENV: "test"
