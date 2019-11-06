@@ -22,7 +22,8 @@ Each function definition has the general form.
 * @param paramN description of paramN 
 * @return description of return value 
 */ 
-// Function definition        
+// Function definition  
+// Parameter names are not important in function declaration only their type is required      
 return-type function-name (type1 param1, … , typeN paramN) { 
     // Function Body        
     statement-1; 
@@ -59,6 +60,10 @@ int main () {
 }
  
 /* function returning the max between two numbers */
+/* Function definition */
+/* Parameter names are optional */      
+/* We would declare a function like this */
+/* int max(int, int); */        
 int max(int num1, int num2) {
 
    /* local variable declaration */
