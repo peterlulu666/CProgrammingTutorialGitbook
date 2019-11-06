@@ -33,7 +33,14 @@ Pointers to `void`. a memory allocation function `void *malloc( size_t size )` r
 
 ## Constant variable      
 
-Constant variable `const`.        
+Constant variable      
+
+* `#define identifier value`.     
+* `const identifier = value`.      
+
+
+
+
 
 ## Print      
 
