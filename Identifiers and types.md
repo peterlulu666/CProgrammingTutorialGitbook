@@ -134,7 +134,7 @@ initialized to the ratio of 1.0 divided by 10.0</li>
 <li>A character <em>hex7A</em> whose value is the hexadecimal constant 7A.</li>
 <li>A character constant <em>charZ</em> initialized to 'Z'.</li>
 <li>An unsigned short variable <em>numLetters</em> that is the number of letters between 'A' and 'Z' inclusive.</li>
-</ol>      
+     
 For each variable or constant, provide a printf() statement using the apropriate field specifier that prints its name, its value, and its size in bytes.      
 
 
@@ -147,7 +147,15 @@ For each variable or constant, provide a printf() statement using the apropriate
 
 
 
+<pre>
+```c
+int count = 0; 
+int count1 = ++count; // count1 is 1, count is 1 
+int count2 = count++; // count2 is 1, count is 2 
+count *= count; // count is 4      
 
+```      
+</pre>
 
 
 
