@@ -26,7 +26,7 @@ A function returns `void`.
 
 A function has no parameter can accept `void`.      
 
-Pointers to `void`. a memory allocation function `void *malloc( size_t size )` return a pointer to void which can be casted to any type of data.      
+Pointers to `void`. a memory allocation function `void *malloc( size_t size )` return a pointer to void which can be casted to any type of data.            
 
 
       
@@ -56,7 +56,13 @@ Format specifiers in `printf` format string.
 
 ## Assignments operator            
 
-We would use assignments operator `=` to initialize a variable.           
+We would declare a variable like this `type variable_name`.      
+
+We would use assignments operator `=` to initialize a variable like this `variable_name = value`.      
+      
+We would initialize a variable in their declaration like this `type variable_name = value`.      
+
+
 
 ## Arithmetic operators      
 
