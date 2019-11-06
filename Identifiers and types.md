@@ -115,6 +115,48 @@ Returns the address of a variable `&`.
 
 Pointer to a variable `*`.      
 
+## Assignment      
+
+
+Define and initialize the following variable or constant with the appropriate type and value. In some cases, you will use operators to compute the value.     
+<ol>
+<li>An unsigned integer constant <em>squareOfThree</em> initialized by calculating 
+the square of 3</li>
+<li>A double precision floating point constant <em>e </em>initialized to Euler's constant 2.718281828459045</li>
+<li>A boolean variable<em> isGreaterThan </em>initialized to the logical expression<em> 2.8 </em>&gt; <em>e</em></li>
+<li>An integer variable <em>quotient</em> initialized to the ratio of sum 2+4+5 
+divided by 3</li>
+<li>A short integer variable <em>remainder</em> that is the remainder of 
+11 with 3</li>
+<li>A double precision variable <em>greaterValue </em>that is 2.8<em></em> if <em>isGreaterThan</em> is true and <em>e if isGreaterThan</em> is false.
+</li><li>A single precision floating point constant <em>oneTenth</em> 
+initialized to the ratio of 1.0 divided by 10.0</li>
+<li>A character <em>hex7A</em> whose value is the hexadecimal constant 7A.</li>
+<li>A character constant <em>charZ</em> initialized to 'Z'.</li>
+<li>An unsigned short variable <em>numLetters</em> that is the number of letters between 'A' and 'Z' inclusive.</li>
+</ol>      
+For each variable or constant, provide a printf() statement using the apropriate field specifier that prints its name, its value, and its size in bytes.      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
