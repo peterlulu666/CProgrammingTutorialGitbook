@@ -148,17 +148,25 @@ For each variable or constant, provide a printf() statement using the apropriate
 
 
 <pre>
-```c
+<code class="language-pascal">
 int count = 0; 
 int count1 = ++count; // count1 is 1, count is 1 
 int count2 = count++; // count2 is 1, count is 2 
 count *= count; // count is 4      
 
-```      
+</code>    
 </pre>
 
 
+<pre>
+<code class="language-c">
+int count = 0; 
+int count1 = ++count; // count1 is 1, count is 1 
+int count2 = count++; // count2 is 1, count is 2 
+count *= count; // count is 4      
 
+</code>    
+</pre>
 
 
 
