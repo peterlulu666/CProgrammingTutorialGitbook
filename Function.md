@@ -88,10 +88,29 @@ int max(int num1, int num2) {
 
 * Scope      
     - Visibility of variable.      
-* Local scope      
-    - Variables declared within a function block are known only to that function.                   
-* Global scope      
-    - Variables declared outside the function are unknown to the function.     
+* Local variable      
+    - Variables declared within a function block are local variables and they are known only to that function.                
+    - Variables declared outside the function are unknown to the function.                                           
+* Global variable      
+    - A global variable is a variable that is declared outside all functions.       
+    - A global variable can be used in all functions.        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 The `static` qualifier.      
