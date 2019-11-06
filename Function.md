@@ -10,6 +10,8 @@ Productivity.
 
 # C function      
 
+Each function definition has the general form.      
+
 <pre>
 <code class="language-c">
 // Documentation        
@@ -20,7 +22,7 @@ Productivity.
 * @param paramN description of paramN 
 * @return description of return value 
 */ 
-// Function Declaration        
+// Function definition        
 return-type function-name (type1 param1, … , typeN paramN) { 
     // Function Body        
     statement-1; 
@@ -31,7 +33,51 @@ return-type function-name (type1 param1, … , typeN paramN) {
 }      
 
 </code>    
-</pre>        
+</pre>      
+
+We would declare a function, call a function in main() and define a function like this       
+
+```c      
+#include <stdio.h>
+ 
+/* function declaration */
+int max(int num1, int num2);
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+   int ret;
+ 
+   /* calling a function to get max value */
+   ret = max(a, b);
+ 
+   printf( "Max value is : %d\n", ret );
+ 
+   return 0;
+}
+ 
+/* function returning the max between two numbers */
+int max(int num1, int num2) {
+
+   /* local variable declaration */
+   int result;
+ 
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+ 
+   return result; 
+}        
+
+```        
+
+
+
+
+
 
 ## scope      
 
