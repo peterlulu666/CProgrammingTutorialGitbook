@@ -105,9 +105,23 @@ count *= count; // count is 4
 * logical OR `||`.      
 * logical NOT `!`.      
 
-## Conditional operator        
+## Misc Operators        
 
-Conditional operator `?`.      
+Conditional operator `?`.       
+
+Returns the size of a variable `sizeof()`.            
+
+Returns the address of a variable `&`.     
+
+Pointer to a variable `*`.      
+
+
+
+
+
+
+
+
 
       
 
