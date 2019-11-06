@@ -1,4 +1,6 @@
-# Program Basics: Types, Statements, Operators, and Expressions
+# Lecture 2        
+
+## Program Basics: Types, Statements, Operators, and Expressions
 This lesson covers the basics of a program, which includes both data and instructions. It begins by introducing the idea of a data type.
 
 Almost every programming language associates data with types. As we saw in Lecture 1, a value stored in memory occupies a certain number of bytes, and computer instructions are designed to operate on data of specific types. These data types and instructions are directly reflected in the C programming language.

@@ -5,7 +5,8 @@
 * [Lecture 2](Lecture 2.md)
 * [Lecture 3](Lecture 3.md)
 * [Identifiers and types](Identifiers and types.md)   
-* [Function](Function.md)         
+* [Function](Function.md)  
+* [Lecture 4](Lecture 4.md)       
 
 
 

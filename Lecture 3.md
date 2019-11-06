@@ -1,3 +1,5 @@
+# Lecture 3      
+
 ## Defining and Calling Functions      
 
 Functions are a way to create new operations that can be combined with built-in operators and other functions. There are two purposes for defining functions. One is to specify some functionality just once and then reuse it wherever it is needed, rather than repeating the same sequence of statements for each new set of values.
