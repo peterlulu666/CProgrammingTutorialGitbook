@@ -142,6 +142,13 @@ initialized to the ratio of 1.0 divided by 10.0</li>
 <li>An unsigned short variable <em>numLetters</em> that is the number of letters between 'A' and 'Z' inclusive.</li>
      
 
+
+
+
+
+
+<br/>
+
 For each variable or constant, provide a printf() statement using the apropriate field specifier that prints its name, its value, and its size in bytes.      
 
 
