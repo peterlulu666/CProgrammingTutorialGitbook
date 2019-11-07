@@ -157,7 +157,13 @@ For each variable or constant, provide a printf() statement using the apropriate
 
 ## Programming      
 
-{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/assignment-1.c" %}{% endgithub_embed %}      
+{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/assignment-2.c" %}{% endgithub_embed %}          
+
+
+
+
+
+
 
 
 
