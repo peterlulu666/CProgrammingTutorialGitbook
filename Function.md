@@ -92,7 +92,20 @@ int max(int num1, int num2) {
     - Variables declared outside the function are unknown to the function.                                           
 * Global variable      
     - A global variable is a variable that is declared outside all functions.       
-    - A global variable can be used in all functions.        
+    - A global variable can be used in all functions.      
+    - Let's say that the first function is main() and additional functions are defined after main(). The variables declared         above main() are global variables.      
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
