@@ -8,7 +8,14 @@
 * [Function](Function.md)  
 * [Lecture 4](Lecture 4.md)  
 * [Conditional process](Conditional process.md)  
-* [Lecture 5](Lecture 5.md)       
+* [Lecture 5](Lecture 5.md)     
+* [Array](Array.md)      
+
+
+
+
+
+
 
 
 
