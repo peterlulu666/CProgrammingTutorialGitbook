@@ -8,7 +8,15 @@ Printf format specifier to print pointer is `%p`.
 
 ## Pointer     
 
-### Declare pointer `type *variableName`.      
+### Declare pointer      
+
+
+
+Declare pointer `type *variableName`.        
+
+
+
+
 
 ```c                
 bool *bp; // pointer to a boolean 
