@@ -11,6 +11,14 @@
 * [Lecture 5](Lecture 5.md)     
 * [Array](Array.md)      
 * [Lecture 6](Lecture 6.md)      
+* [Pointers and Pointer Function Parameters](Pointers and Pointer Function Parameters.md)      
+* [Lecture 7](Lecture 7.md)        
+
+
+
+
+
+
 
 
 
