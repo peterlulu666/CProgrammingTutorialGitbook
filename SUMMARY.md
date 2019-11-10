@@ -10,6 +10,12 @@
 * [Conditional process](Conditional process.md)  
 * [Lecture 5](Lecture 5.md)     
 * [Array](Array.md)      
+* [Lecture 6](Lecture 6.md)      
+
+
+
+
+
 
 
 
