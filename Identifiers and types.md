@@ -60,6 +60,9 @@ Format specifiers in `printf` format string.
 * `double`: %f 
 * `long double`: %Lf 
 * `string`: %s      
+* Pointer address: `%p`      
+
+
 
 ## Assignments operator            
 
