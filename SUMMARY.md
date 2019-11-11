@@ -12,7 +12,10 @@
 * [Array](Array.md)      
 * [Lecture 6](Lecture 6.md)      
 * [Pointers and Pointer Function Parameters](Pointers and Pointer Function Parameters.md)      
-* [Lecture 7](Lecture 7.md)        
+* [Lecture 7](Lecture 7.md)          
+* [Pointers to Arrays and Strings](Pointers to Arrays and Strings.md)      
+
+
 
 
 
