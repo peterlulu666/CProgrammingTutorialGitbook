@@ -35,17 +35,7 @@ In this lesson, we will learn about typedef, a way to provide programmer-defined
 assets/Lecture8.pdf
 {% endurlembed %}      
 
-<embed  src="assets/Lecture8.pdf"
-        width="100%"
-        height="850">
 
-
-
-<html>
-<embed  src="assets/Lecture8.pdf"
-        width="100%"
-        height="850">
-</html>
 
 
 
