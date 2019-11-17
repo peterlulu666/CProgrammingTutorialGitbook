@@ -14,7 +14,9 @@
 * [Pointers and Pointer Function Parameters](Pointers and Pointer Function Parameters.md)      
 * [Lecture 7](Lecture 7.md)          
 * [Pointers to Arrays and Strings](Pointers to Arrays and Strings.md)      
-* [Lecture 8](Lecture 8.md)            
+* [Lecture 8](Lecture 8.md)        
+* [Data type and typedefs](Data type and typedefs.md)              
+
 
 
 
