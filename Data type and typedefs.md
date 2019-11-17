@@ -132,7 +132,84 @@ Write a C program "zoo.c" that creates and manages a zoo.
 
 <br/>      
 
+<ol>
+            <li>
+            Create an <strong>Animal</strong> enum for the 
+            animals listed above in that order, and add 
+            <em>Animal_kinds</em> at the end of the enum as
+            the number of kinds of <strong>Animal</strong>s.
+            </li>
+            <li>
+            Create a <strong>Zoo</strong> typedef as an array
+            of <strong>unsigned
+            int</strong> representing the counts for each 
+             kind of <strong>Animal</strong> in the
+            <strong>Zoo</strong>'s collection.
+            </li>
+            <li>
+            Write a function 
+            <em>void makeZoo(<strong>Zoo</strong> aZoo)</em>
+            that initializes the Zoo to have no 
+            <strong>Animal</strong>s in its collection.
+            </li>
+            <li>
+            Write a function <em><strong>unsigned int</strong>
+            addAnimal(<strong>Zoo</strong> aZoo, 
+            <strong>Animal</strong> anAnimal)</em> that
+            adds an <strong>Animal</strong> to the 
+            <strong>Zoo</strong> and returns the current
+            count for that <strong>Animal</strong>.
+            </li>
+            <li>
+            Write a function 
+            <em><strong>const char*</strong> 
+            getAnimalName(<strong>Animal</strong> anAnimal)</em> 
+            that returns the name of the 
+            <strong>Animal</strong>. Declare a
+            local array <em>static const 
+            <strong>char *</strong>animalNames[]</em>, 
+            initialized with the
+            literal strings for the <strong>Animal</strong> 
+            names using the <strong>Animal</strong> 
+            enumeration value 
+            as an index into the <em>animalNames</em>
+            array. The function can return the string 
+            because the <em>animalNames</em> is a static 
+            array of literal strings.
+            </li>
+            <li>
+            Write a function 
+            <em><strong>void</strong> 
+            printZoo(const <strong>Zoo</strong> aZoo)</em>
+            that prints an inventory of the animals in the
+            <strong>Zoo</strong>. The output is one animal 
+            per line with the
+            count in a blank-padded field of 3 digits (%3u),
+            followed by a tab character ('\t') followed by
+            the name of the animal.The function uses
+            <em>getAnimalNames()</em> to get the 
+            <strong>Animal</strong> names.
+            </li>
+            <li>
+            Write a
+            <em><strong>int</strong> 
+            main(<strong>void</strong>)</em>
+            function that creates a <strong>Zoo</strong>
+            and calls <em>makeZoo()</em> to initialize it.
+            Then it calls <em>addAnimal()</em> to add a number
+            of each <strong>Animal</strong> to the 
+            <strong>Zoo</strong> corresponding to the
+            enumeration value of the <strong>Animal</strong>. 
+            For each <strong>Animal</strong> added, it prints
+            the <strong>Animal</strong> name and the new count
+            using this format:
+            "Added %s count: %u\n" Finally it uses 
+            <em>printZoo()</em> to print animals in the 
+            <strong>Zoo</strong> and their counts.
+            </li>
+            </ol>     
 
+            <br/>
 
 
 
