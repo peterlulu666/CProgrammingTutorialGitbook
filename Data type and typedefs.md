@@ -120,17 +120,7 @@ A zoo is a collection of animals. We can represent animals using an enum Animal 
 We can represent a Zoo as a typedef for an array of Animal whose elements count the number of each Animal in its collection. The value of each Animal can be used as an index into the Zoo array.
 
 Write a C program "zoo.c" that creates and manages a zoo.
-
-1. Create an Animal enum for the animals listed above in that order, and add Animal_kinds at the end of the enum as the number of kinds of Animals.
-2. Create a Zoo typedef as an array of unsigned int representing the counts for each kind of Animal in the Zoo's collection.
-3. Write a function void makeZoo(Zoo aZoo) that initializes the Zoo to have no Animals in its collection.
-4. Write a function unsigned int addAnimal(Zoo aZoo, Animal anAnimal) that adds an Animal to the Zoo and returns the current count for that Animal.
-5. Write a function const char* getAnimalName(Animal anAnimal) that returns the name of the Animal. Declare a local array static const char *animalNames[], initialized with the literal strings for the Animal names using the Animal enumeration value as an index into the animalNames array. The function can return the string because the animalNames is a static array of literal strings.
-6. Write a function void printZoo(const Zoo aZoo) that prints an inventory of the animals in the Zoo. The output is one animal per line with the count in a blank-padded field of 3 digits (%3u), followed by a tab character ('\t') followed by the name of the animal.The function uses getAnimalNames() to get the Animal names.
-7. Write a int main(void) function that creates a Zoo and calls makeZoo() to initialize it. Then it calls addAnimal() to add a number of each Animal to the Zoo corresponding to the enumeration value of the Animal. For each Animal added, it prints the Animal name and the new count using this format: "Added %s count: %u\n" Finally it uses printZoo() to print animals in the Zoo and their counts.        
-
-
-<br/>      
+    
 
 <ol>
             <li>
@@ -209,8 +199,8 @@ Write a C program "zoo.c" that creates and manages a zoo.
             </li>
             </ol>     
 
-            <br/>
 
+<br/>
 
 
 
