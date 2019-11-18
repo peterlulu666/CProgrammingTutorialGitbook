@@ -15,8 +15,15 @@
 * [Lecture 7](Lecture 7.md)          
 * [Pointers to Arrays and Strings](Pointers to Arrays and Strings.md)      
 * [Lecture 8](Lecture 8.md)        
-* [Data type and typedefs](Data type and typedefs.md)      
 * [Lecture 9](Lecture 9.md)      
+* [Lecture 10](Lecture 10.md)      
+* [Data type and typedefs](Data type and typedefs.md)      
+
+
+
+
+
+
 
 
 
