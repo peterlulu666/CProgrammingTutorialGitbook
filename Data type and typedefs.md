@@ -78,7 +78,7 @@ We would declare the enum like this `enum identifier(opt) {enumerator-list}`.
 ```c     
 typedef enum { Sun, Mon, Tue, Wed, Thu, Fri, Sat } DayOfWeek;      
 // This is the same as         
-// const int Sun = 1;        
+// const int Sun = 0;              
 ```      
 
 This makes DayOfWeek a type, similar to int. As with any type, we can declare variables of that type.      
