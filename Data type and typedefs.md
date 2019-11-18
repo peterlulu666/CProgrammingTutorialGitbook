@@ -93,7 +93,14 @@ int main(){
 ```        
 
 
-### Playing card      
+### Playing card        
+
+{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/PlayingCard.c" %}{% endgithub_embed %}        
+
+
+
+
+
 
 
 
