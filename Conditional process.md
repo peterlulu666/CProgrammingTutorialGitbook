@@ -1,103 +1,22 @@
-# Identifiers and types       
+# Conditional process       
 
-## Identifiers      
+## if else if       
 
-Identifiers are names of variable, arrays, function, structures, unions and labels.      
+<img src="img/Condition.svg" alt="Condition" style="zoom:50%;" />       
 
-## Type      
+## for loop        
 
-* `bool`: 1 byte (8 bits) 
-* `char`, (`signed char`), `unsigned char`: 1 byte (8 bits) 
-* `short` (`signed short`), `unsigned short`: 2 bytes (16 bits) 
-* `int` (`signed int`), `unsigned int` : 4 bytes (32 bits) 
-* `long` (`signed long`), `unsigned long`: 8 bytes (64 bits) 
-* `long long` (`signed long long`), `unsigned long long` : 8 bytes (64 bits) 
-* `float`: 4 bytes (32 bits) 
-* `double`: 8 bytes (64 bits) 
-* `long double`: 16 bytes (80 bits)  (note: 10 bytes stored in 16 byte field)      
+<img src="img/for.svg" alt="for" style="zoom:50%;" />        
 
-## String      
+## switch        
 
-String is sequence of characters.      
+<img src="img/switch.svg" alt="switch" style="zoom:50%;" />        
 
-## The void type      
+Swich case statements can only be used with numbers, characters or Enums. They cannot be used for processing strings or classes.        
 
-A function returns `void`.     
+## while loop        
 
-A function has no parameter can accept `void`.      
-
-Pointers to `void`. a memory allocation function `void *malloc( size_t size )` return a pointer to void which can be casted to any type of data.            
-
-
-      
-
-## Constant variable      
-
-Constant variable      
-
-* `#define identifier value`.     
-* `const type identifier = value`.      
-
-
-
-
-
-## Print      
-
-Format specifiers in `printf` format string.        
-
-* `bool`:  %d, %i 
-* `char`: %c 
-* `short`: %d, %i 
-* `unsigned short`: %u 
-* `int`: %d, %i 
-* `unsigned int`: %u 
-* `long`: %ld, %li 
-* `unsigned long`: %lu 
-* `long long`: %lld, %lli (see note) 
-* `unsigned long long`: %llu (see note) 
-* `float`: %f 
-* `double`: %f 
-* `long double`: %Lf 
-* `string`: %s      
-
-## Assignments operator            
-
-We would declare a variable like this `type variable_name`.      
-
-We would use assignments operator `=` to initialize a variable like this `variable_name = value`.      
-      
-We would initialize a variable in their declaration like this `type variable_name = value`.      
-
-
-
-## Arithmetic operators      
-
-Infix binary operators: `+`, `-`, `*`, `/`, `%`.      
-
-Prefix unary operators: `++`, `--`, `+`, `-`.      
-
-Postfix unary operators: `++`, `--`.      
-
-Arithmetic assignment operators: `+=`, `-=`, `*=`, `/=`, `%=`.        
-
-```c
-int count = 0; 
-int count1 = ++count; // count1 is 1, count is 1 
-int count2 = count++; // count2 is 1, count is 2 
-count *= count; // count is 4      
-
-```      
-
-
-## Relational operators      
-
-* equals `==`.      
-* not equal `!=`.      
-* greater `>`.      
-* less `<`.      
-* greater or equal `>=`.      
-* less or equal `<=`.      
+<img src="img/while.svg" alt="while" style="zoom:50%;" />      
 
 
 
@@ -105,51 +24,61 @@ count *= count; // count is 4
 
 
 
-## Logical operators        
 
-* logical AND `&&`.                 
-* logical OR `||`.      
-* logical NOT `!`.      
 
-## Misc Operators        
-
-Conditional operator `?`.       
-
-Returns the size of a variable `sizeof()`.            
-
-Returns the address of a variable `&`.     
-
-Pointer to a variable `*`.      
 
 ## Assignment      
 
 
-Define and initialize the following variable or constant with the appropriate type and value. In some cases, you will use operators to compute the value.     
-<ol>
-<li>An unsigned integer constant <em>squareOfThree</em> initialized by calculating 
-the square of 3</li>
-<li>A double precision floating point constant <em>e </em>initialized to Euler's constant 2.718281828459045</li>
-<li>A boolean variable<em> isGreaterThan </em>initialized to the logical expression<em> 2.8 </em>&gt; <em>e</em></li>
-<li>An integer variable <em>quotient</em> initialized to the ratio of sum 2+4+5 
-divided by 3</li>
-<li>A short integer variable <em>remainder</em> that is the remainder of 
-11 with 3</li>
-<li>A double precision variable <em>greaterValue </em>that is 2.8<em></em> if <em>isGreaterThan</em> is true and <em>e if isGreaterThan</em> is false.
-</li><li>A single precision floating point constant <em>oneTenth</em> 
-initialized to the ratio of 1.0 divided by 10.0</li>
-<li>A character <em>hex7A</em> whose value is the hexadecimal constant 7A.</li>
-<li>A character constant <em>charZ</em> initialized to 'Z'.</li>
-<li>An unsigned short variable <em>numLetters</em> that is the number of letters between 'A' and 'Z' inclusive.</li>
-     
+                
+<p>
+                Include all the specified functions in a file "assignment-2.c". Include a main
+                program that tests the functions by calling them with test data and printing the results returned 
+                by the functions. Include comments for the tests that describe their purposes.
+                Label the output so someone else can understand it. </p>
+                <p>Provide a documentation block for for the file that includes the name of the file, its creation date, its author, and a brief description the file. Also provide a documentation block each function describing its purpose,
+                parameters, and return values as appropriate. Check your file in to the CCIS 
+                GitHub repository 2018FACS5001SV/assignment-2-<em>ccisID</em> that was created 
+                by your instructor for your ccisID.
+                </p>
+                
+                <h4>Function <em>countCalls</em></h4>
+                <p>
+                Create a function <em>unsigned int countCalls(bool reset)</em> 
+                with a static unsigned in <em>problem1Count</em> to count the number of
+                times the function is called. If called with <em>false</em>, the function increments
+                <em>problem1Count</em> and returns 0. 
+                If called with <em>true</em>, the function resets <em>problem1Count</em> to 0 and 
+                returns the number of times the function was called since the last time it was reset.
+                </p>
+                <p> 
+                Call this function from <em>main</em> several times with <em>false</em> to build up a
+                count, then call it with <em>true</em>. Report the value returned from the function 
+                for each call. By way of example, if the function is called four times with 
+                <em>false</em>, it returns 0 each time. If then called with <em>true</em>, it 
+                returns 4 and resets <em>problem1Count</em> back to 0.
+				</p> 
+                  
+                <h4>Function pi</h4>
+				<p>
+                Write a function <em>double pi()</em> that approximates value of pi to the precision of a double:
+                3.14159265358979 using an approximation 
+                technique that is the sum of the series
+                <br>
+                3 + 4/(2*3*4) - 4/(4*5*6) + 4/(6*7*8) - 4/(8*9*10) ...
+                </p>
+                <p>
+                Use a loop to add successive tems of the series until the previous sum and sum with the next term are the same.  Return this value as the result of the function. 
+                </p>
+                <h4>Function <em>daysInMonth</em></h4>
+                <p>
+                Write a function <em>unsigned short daysInMonth(unsigned int month)</em>. The function
+                takes a month number between 1 (Janauary) and 12 (December), and uses a switch
+                statement to set a local unsigned short variable <em>numDays</em> to the number of days in any month (assuming 28 for February). Return <em>numDays</em> at the end of the function.  If the input value 
+                is not a valid month number, return 0 from the function. Be sure to include this behaviour in your function documenation.        
+</p>
 
-
-
-
-
-
-<br/>
-
-For each variable or constant, provide a printf() statement using the apropriate field specifier that prints its name, its value, and its size in bytes.      
+            
 
 
 
@@ -157,7 +86,7 @@ For each variable or constant, provide a printf() statement using the apropriate
 
 ## Programming      
 
-{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/assignment-1.c" %}{% endgithub_embed %}      
+{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/assignment-2.c" %}{% endgithub_embed %}      
 
 
 
