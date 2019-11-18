@@ -71,11 +71,14 @@ p = (String) malloc(100);
 
 An enum is an enumerated type that specifies a fixed set of choices.      
 
+We would use `enum` to avoid "magic number" which is a numeric constant that appears in your code without explanation.               
+
 We would declare the enum like this `enum identifier(opt) {enumerator-list}`.     
 
 ```c     
 typedef enum { Sun, Mon, Tue, Wed, Thu, Fri, Sat } DayOfWeek;      
-
+// This is same as 
+// const int Sun = 1;        
 ```      
 
 This makes DayOfWeek a type, similar to int. As with any type, we can declare variables of that type.      
