@@ -62,6 +62,7 @@ returns 4 and resets <em>problem1Count</em> back to 0.
 </p> 
     
 <h4>Function pi</h4>
+
 <p>
 Write a function <em>double pi()</em> that approximates value of pi to the precision of a double:
 3.14159265358979 using an approximation 
@@ -72,7 +73,9 @@ technique that is the sum of the series
 <p>
 Use a loop to add successive tems of the series until the previous sum and sum with the next term are the same.  Return this value as the result of the function. 
 </p>
+
 <h4>Function <em>daysInMonth</em></h4>
+
 <p>
 Write a function <em>unsigned short daysInMonth(unsigned int month)</em>. The function
 takes a month number between 1 (Janauary) and 12 (December), and uses a switch
