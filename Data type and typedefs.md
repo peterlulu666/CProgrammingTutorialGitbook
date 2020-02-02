@@ -119,7 +119,9 @@ int main(){
 
 ## Struct      
 
-Struct is an aggregation of heterogeneous types that represent a record.      
+Array is the collection of the same type data. Likewise, struct is the collection of the different type data.          
+
+Struct is an aggregation of heterogeneous types that represent a record.        
 
 
 ## Assignment      
