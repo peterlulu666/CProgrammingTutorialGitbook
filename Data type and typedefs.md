@@ -121,7 +121,45 @@ int main(){
 
 Array is the collection of the same type data. Likewise, struct is the collection of the different type data.          
 
-Struct is an aggregation of heterogeneous types that represent a record.        
+Struct is an aggregation of heterogeneous types that represent a record.      
+
+```c        
+#include <stdio.h>
+#include <string.h>
+
+// Define struct
+struct Books{
+    char title[100];
+    char author[100];
+    char subject[100];
+    int book_id;
+
+};
+
+int main(){
+    // Declare struct
+    struct Books book1;
+    struct Books book2;
+    // Assign struct      
+    strcpy(book1.author, "Allen");
+    strcpy(book1.title, "C Programming");
+    strcpy(book1.subject, "Computer");
+    book1.book_id = 123456;
+    // Access struct        
+    printf("%s\n", book1.title);
+    printf("%d", book1.book_id);     
+
+    return 0;
+
+}      
+
+```        
+
+
+
+
+
+
 
 
 ## Assignment      
