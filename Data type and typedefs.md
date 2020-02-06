@@ -318,8 +318,84 @@ Write a C program "zoo.c" that creates and manages a zoo.
 {% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/zoo.c" %}{% endgithub_embed %}        
 
 
+## Assignment    
+
+<div id="btab-5" class="t_div assignment ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-7" role="tabpanel" aria-hidden="false" style="display: block;">
+                <ul class="assign_info">
+                    <li>
+                    DUE DATE: <span class="due_date">Wed, 3 Oct before 11:59:59pm</span><br>
+                    </li>
+                </ul>
+
+                <p>
+                This problem is similar to the example shown on slides 21-24 of Lecture 3. Write a program "assignment-6.c" that creates and manages geometric shapes.
+                </p>
+                <ol>
+                <li>
+                Define and typedef a struct <strong>Point</strong> that contains two double variables
+                <em>x</em> and <em>y</em>. An instance of <em>Point</em> represents a point in
+                Cartsian space.
+                </li>
+                <li>
+                Define and typedef a struct <strong>Circle</strong> that contains
+                a double variable <em>radius</em> and a <em>Point</em> variable <em>center</em>.
+                </li>
+                <li>
+                Define and typedef a struct <strong>Rectangle</strong> that contains
+                a <strong>Point</strong> variable <em>origin</em> that is the top left corner of
+                the rectangle, and two double variables <em>width</em> and
+                <em>height</em>.
+                </li>
+                <li>
+                Create a function <em>distanceofPoints()</em> that takes const pointers to two
+                <strong>Point</strong> structs, and computes the distance between them. The distance between
+                two points is the square root of the square of the x distances plus the square
+                of the y distances for the two points. The function returns a double. </li>
+                <li>
+                Create a function <em>intersectsCircles()</em> that takes const pointers to two
+                <strong>Circle</strong> structs <em>circle1</em> and <em>circle2</em>and returns true
+                if the two circles intersect and false otherwise. Two circles
+                intersect if the distance between their centers is less than the sum
+                of the two radii (if they are equal, the two circles touch but do not
+                intersect. </li>
+                <li>
+                Create a function <em>getBoundingBox()</em> that takes a const pointer to a in input
+                parameter <strong>Circle</strong>, <em>circle</em> and a pointer to a <strong>Rectangle</strong>
+                result parameter <em>boundingBox</em>. The function sets the fields of
+                <strong>Rectangle</strong> to the bounding box that encloses the circle. The function
+                returns the <strong>Rectangle</strong> result parameter pointer.
+                </li>
+                <li>
+                Create a main program that tests the
+                <em>intersectsCircles()</em> function using the following cases:
+                <ul>
+                <li>
+                circle1 at 0,0 radius 10, and circle2 at 21,0, radius 10: do not intersect
+                </li>
+                <li>
+                circle1 at 0,0 radius 10, and circle3 at 20, 0, radius 10: do not intersect
+                </li>
+                <li></li>
+                circle1 at 0,0 radius 10, and circle4 at 19,0, radius 10: intersect
+                </ul>
+                </li>
+                <li>
+                Also in the main program, test the <em>getBoundingBox()</em> function by
+                declaring an uninitialized <em>Rectangle</em> <em>boundingBox</em> and
+                calling the <em>getBoundingBox()</em> function for <em>circle1</em>,
+                <em>circle2</em>, <em>circle3</em>, and <em>circle4</em>. Print the origin,
+                width, and height of the <em>boundingBox</em> for each circle.
+                </li>
+                </ol>
+            </div>     
 
 
+
+
+## Programming    
+
+
+{% github_embed "https://github.com/peterlulu666/CProgrammingTutorial/blob/master/assignment-6.c" %}{% endgithub_embed %} 
 
 
 
