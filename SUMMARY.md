@@ -18,6 +18,7 @@
 * [Lecture 9](Lecture 9.md)      
 * [Lecture 10](Lecture 10.md)      
 * [Data type and typedefs](Data type and typedefs.md)      
+* [Lecture 11](Lecture 11.md)      
 
 
 
