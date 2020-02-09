@@ -19,6 +19,13 @@
 * [Lecture 10](Lecture 10.md)      
 * [Data type and typedefs](Data type and typedefs.md)      
 * [Lecture 11](Lecture 11.md)      
+* [Memory allocation and management](Memory allocation and management.md)      
+
+
+
+
+
+
 
 
 
